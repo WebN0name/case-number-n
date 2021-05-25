@@ -5,7 +5,7 @@ import CardContent from "@material-ui/core/CardContent"
 import CardMedia from "@material-ui/core/CardMedia"
 import Button from "@material-ui/core/Button"
 import Typography from "@material-ui/core/Typography"
-import Router from 'next/router'
+import Router from "next/router"
 
 const CardTemp = () => {
   return (
@@ -34,11 +34,31 @@ const CardTemp = () => {
           <a
             className="w-36 h-8 block text-white bg-red-800 cursor-pointer text-center font-bold hover:bg-white hover:text-blue-700"
             style={{ lineHeight: "1.7rem", borderRadius: "30px" }}
-            onClick = {() => {Router.replace(`/kazan`)}}
+            onClick={() => {
+              Router.replace(`/kazan`)
+            }}
           >
             Читать далее
           </a>
         </CardActions>
+      </Card>
+
+      <Card className="max-w-6xl mx-auto mt-32">
+        <CardMedia
+          component="img"
+          alt="Contemplative Reptile"
+          height="140"
+          image="/img/hachaturyan.jpg"
+          title="Contemplative Reptile"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2" style = {{textTransform: 'uppercase'}}>
+            Дело сестёр Хачатурян
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+            Скоро в публикации
+          </Typography>
+        </CardContent>
       </Card>
     </div>
   )

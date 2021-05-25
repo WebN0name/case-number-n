@@ -3,30 +3,32 @@ import { Link } from "react-scroll"
 
 export default function Article() {
   return (
-    <div className = "bg-gray-200">
-      <div className="w-full">
-        <ul className="flex justify-between bg-black text-white fixed text-center h-10 leading-10 w-full pl-32 pr-32">
-          <li className="cursor-pointer" style={{ userSelect: "none" }}>
-            <Link to="silend-boy">Замкнутый тихий мальчик </Link>
-          </li>
-          <li className="cursor-pointer" style={{ userSelect: "none" }}>
-            {" "}
-            <Link to="god-start">Становление Богом </Link>
-          </li>
-          <li className="cursor-pointer" style={{ userSelect: "none" }}>
-            <Link to="start-end">Начало конца</Link>
-          </li>
-          <li className="cursor-pointer" style={{ userSelect: "none" }}>
-            <Link to="god-court">«Божественный» суд</Link>
-          </li>
-          <li className="cursor-pointer" style={{ userSelect: "none" }}>
-            <Link to="arrest">После ареста</Link>
-          </li>
-        </ul>
+    <div className="bg-gray-200 ">
+      <div className="w-full fixed bg-black">
+        <div className="container mx-auto">
+          <ul className="flex justify-between text-white text-center leading-10 w-full">
+            <li className="cursor-pointer" style={{ userSelect: "none" }}>
+              <Link to="silend-boy">Замкнутый тихий мальчик</Link>
+            </li>
+            <li className="cursor-pointer" style={{ userSelect: "none" }}>
+              {" "}
+              <Link to="god-start">Становление Богом </Link>
+            </li>
+            <li className="cursor-pointer" style={{ userSelect: "none" }}>
+              <Link to="start-end">Начало конца</Link>
+            </li>
+            <li className="cursor-pointer" style={{ userSelect: "none" }}>
+              <Link to="god-court">«Божественный» суд</Link>
+            </li>
+            <li className="cursor-pointer" style={{ userSelect: "none" }}>
+              <Link to="arrest">После ареста</Link>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="container mx-auto pt-16 pb-16">
+      <div class="container mx-auto pt-16 pb-16 px-5 ">
         <h2 className="text-center font-black text-4xl">КАЗАНСКАЯ ТРАГЕДИЯ</h2>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           На всю страну прогремела трагедия со стрельбой в Казани, разразившаяся накануне утром в школе №175. Самый
           страшный кошмар родителей воплотился наяву: большинство жертв преступника — дети. Примеры стрельбы в школах в
           России уже были, и их было немало, но по массовости жертв этот случай несопоставим ни с каким другим. Что
@@ -36,7 +38,7 @@ export default function Article() {
         <h3 id="silend-boy" className="text-center font-black text-2xl">
           Замкнутый тихий мальчик
         </h3>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Ильназ родился 11 сентября 2001 года в Казани. С самого детства он рос тихим и замкнутым, который не привлекал
           внимания к своей персоне. По словам знакомых Галявиева, из него и двух слов было трудно вытянуть. О нем и о
           его семье никто из соседей не говорит ничего плохого. Некоторые жители дома №10 по улице Туганлык знают
@@ -44,7 +46,7 @@ export default function Article() {
           есть старший брат Инсаф — полная его противоположность. В отличие от нелюдимого младшего, старший брат был
           жизнерадостным и общительным.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           «Папа водил детей за руки, они всегда здоровались с соседями, когда проходили мимо, и выглядели отличной
           семьей, — рассказывают местные.— Родители у него добрые, голос никогда не повышали, воспитанные, ничего
           плохого о них сказать не можем. Скандалов не замечали»‎.
@@ -53,7 +55,7 @@ export default function Article() {
           <img className="mt-5 mb-5" src="/img/school.png" className="max-w-lg"></img>
           <span className="text-center italic ">Ильназ Галявиев в начальных классах</span>
         </Card>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           По воспоминаниям учащихся гимназии, в общественных мероприятиях Галявиев не участвовал, друзей у него не было.
           Ильназ старался находиться один. Одноклассники описывали его как нелюдимого, неприметного и ничем не
           выделяющегося парня. Однако травли в классе никогда не было, поэтому нельзя сказать, что он совершил
@@ -73,24 +75,24 @@ export default function Article() {
           <img className="mt-5 mb-5" src="/img/IlnazPhoto.png"></img>
           <span className="text-center italic ">Ильназ Галявиев</span>
         </Card>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           В 2017-м он окончил 9-й класс и доучиваться два года не стал – отправился в колледж «ТИСБИ». В последние
           месяцы Галявиев жил один. Родители купили квартиру побольше, а старую отдали ему на совершеннолетие. Колледж и
           университет управления «ТИСБИ» считаются довольно престижными по татарстанским меркам учебными заведениями.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Учился Ильназ по направлению «информационные системы и программирование». Правда, доучиться ему было не
           суждено. В течение трех лет он учился стабильно, а с наступлением 2021 года что-то изменилось. Ильназ начал
           пропускать пары, копились учебные долги. В результате 21 апреля 2021 года его отчислили из колледжа.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Жизнеописание Галявиева походит на не особо интересный рассказ о самом обычном человеке, которого можно
           встретить везде. Так бы и оставалось, если бы он не решил совершить то, что совершил в итоге.
         </p>
         <h3 id="god-start" className="text-center font-black text-3xl ">
           Становление Богом
         </h3>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Некоторые странности у парня все же были. Роберт Сибгатуллин, староста группы, в которой учился Галявиев,
           отметил, что еще во время учебы в колледже тот предложил одному из учеников «вступить в свою секту», но тогда
           это сочли за шутку. «Он всегда был очень тихим, конфликтов ни с кем у него не было, кроме одного эпизода, —
@@ -103,7 +105,7 @@ export default function Article() {
           вдруг напомнил мне про это, стал писать оскорбления». На следующий день они поговорили и Ильназ извинился,
           сказав, что на него «что-то нашло в тот день и он почувствовал себя так, будто все может».
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Такое агрессивное поведение не воспринималось всерьез знакомыми Ильназа, хотя тот позволял себе жестокие
           высказывания не только в сторону людей, но животных. Он был ярым противником бездомных собак и считал, что их
           нужно уничтожать «десятками тысяч по всей России».
@@ -112,7 +114,7 @@ export default function Article() {
           <img className="mt-5 mb-5" src="/img/gialog2.png"></img>
           <span className="text-center italic ">Источник: Вконтакте</span>
         </Card>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Несколько лет назад он проходил обследование в качестве призывника в армию и тогда был признан психически
           здоровым. Однако в 2020 году Галявиеву поставили диагноз, связанный с заболеванием головного мозга. «На данный
           момент уже точно установлено, что на учёте в психдиспансере, наркодиспансере он не состоял, но при этом он
@@ -120,18 +122,18 @@ export default function Article() {
           подозреваемому был поставлен диагноз. Я не могу назвать его точно, потому что есть медицинская тайна, но он
           свидетельствует о заболевании головного мозга», — сообщила официальный представитель СК РФ Светлана Петренко.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           По одним данным, врачи диагностировали у Галявиева венозную ангиому правой лобной области — доброкачественное
           образование, которое развивается в кровеносных сосудах. Другие же говорили, что у преступника обнаружили
           менингиому головного мозга. Она могла давить на мозг, нарушать кровообращение, вызывать головные боли и
           агрессию.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Кроме того, вполне возможно, что Галявиев действительно мог состоять в секте и быть вербовщиком. Об этом
           говорят не только вышеназванные случаи, но суицид его бывшего одногруппника. И причины, по которым он совершил
           самоубийство, до сих пор непонятны.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Бывший ученик колледжа ТИСБИ в Казани Даниил А. год назад и один день до стрельбы покончил с собой при
           странных обстоятельствах. По словам Натальи, матери Даниила, ее сын говорил те же слова, что и Галявиев, тоже
           «был одиночкой, оттолкнул всю семью». Погибший также называл себя «богом» и с 14-летнего возраста пытался
@@ -144,7 +146,7 @@ export default function Article() {
           <img src="/img/daniil.png"></img>
           <span className="text-center italic ">Даниил А.</span>
         </Card>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           «Он кричал: «Я видел бога и дьявола, приезжай сюда быстрее. Я их видел, мама, я их видел!» — вспоминает
           Наталья. — В последние месяцы жизни он постоянно заявлял, что он бог и что он зло, демон. Говорил, что всё
           знает и сам всё решит. Он вроде бы и слушал меня, отчима, бабушек, но на самом деле был на своей волне, ни на
@@ -159,7 +161,7 @@ export default function Article() {
           судебного заседания, кратко отвечал на вопросы суда, на вопросы журналистов никак не реагировал. По словам
           Натальи, у сына припадки агрессии тоже сменялись «спокойными» периодами.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Ещё один общий признак — отдаление от родных. На первом допросе Галявиев заявил, что женщина, которая его
           родила, ему не мать, и у него нет родителей. Даниил Андреев периодически проявлял агрессию по отношению к
           родным или отказывался говорить с ними. В постановлении о прекращении уголовного дела есть показания бабушки
@@ -171,14 +173,14 @@ export default function Article() {
           телефон, я поняла, что его даже не вскрывали. Ребёнка что-то мучило, он также был одиночкой и оттолкнул всю
           свою семью. В своей предсмертной записке в телефоне он попросил прощения у нас, а потом ушёл из жизни».
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           В телефоне сына Наталья также нашла приложение, с помощью которого можно научиться разбирать и собирать
           оружие. Галявиев же научился делать не только это, но и попробовать его на практике.
         </p>
         <h3 id="start-end" className="text-center font-black text-2xl">
           Начало конца
         </h3>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Спустя неделю после отчисления он купил оружие — турецкий дробовик Hatsan ESCORT. Судя по ценам, он заметно
           дешевле своих аналогов, стоимость варьируется от 20 до 30 тысяч рублей. Именно такой дробовик был в руках у
           Владислава Рослякова, который в октябре 2018 года ворвался в колледж в Керчи и убил 21 человека.Сумма все же
@@ -190,14 +192,14 @@ export default function Article() {
           <img className="mt-5 mb-5" className="mt-5 mb-5" src="/img/gun.png"></img>
           <span className="text-center italic ">Дробовик Hatsan ESCORT</span>
         </Card>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Купил оружие Галявиев вполне официально. Все необходимые бумаги были — и справка от психиатра, и разрешение на
           ношение оружия. По документам Галявиев значился как охотник и оружие выбирал как раз под «охоту». Само ружье
           он купил в Йошкар-Оле, в двух часах езды от Казани. Галявиев также приобрел более тысячи патронов с картечью.
           Бывший советник главы Росгвардии Александр Хиншейн сообщил, что лицензию на хранение оружия Галявиев получил
           всего за пару недель до трагедии - 28 апреля.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Утром вторника Галявиев беспрепятственно дошел до школы с оружием. Никто из прохожих не отреагировал на
           Ильназа. Возможно из-за страха, равнодушия, невнимательности или недоверия к правоохранительным органам. Да и
           мало кто мог подумать, что оружие действительно настоящее, а его хозяин имеет криминальные намерения.
@@ -206,7 +208,7 @@ export default function Article() {
           <img className="mt-5 mb-5" src="/img/camera-image.png"></img>
           <span className="text-center italic ">Ильназ Галявиев идет к школе</span>
         </Card>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Основатель Telegram Павел Дуров передал, что Галявиев создал Telegram-канал «Бог» всего за двадцать минут до
           того, как начал стрельбу. По словам Дурова, жалобы на посты с призывом к насилию появились после того, как
           Ильназа задержала полиция, канал оперативно заблокировали. На момент совершения теракта аккаунт был закрыт, но
@@ -220,7 +222,7 @@ export default function Article() {
           <img className="mt-5 mb-5" src="/img/god2.png"></img>
           <span className="text-center italic ">Канал Ильназа Галявиева в Telegram</span>
         </Card>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           В 9:20 утра Ильназ Галявиев подошел к гимназии с ружьем и самодельным взрывным устройством. Он открыл
           стрельбу, еще не заходя в двери школы, отчего оно разнесло стекла дверей. На шум вышел 62-летний Мулланур
           Мустафин — бывший преподаватель математики и муж классной руководительницы стрелка — Альфии Мустафиной. В
@@ -230,13 +232,13 @@ export default function Article() {
           стрелок не заметил ее и прошагал мимо. В этот момент в здании находились 714 детей и около 70 сотрудников, в
           том числе 52 педагога.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Войдя в школу, Галявиев открыл беспорядочный огонь по всем, кто попадался ему на пути. Большинство его жертв
           учились в 8 «А». Почему Галявиев пошел именно туда, не ясно. Затем он ходил по коридору иГ дергал ручки
           дверей, пытаясь добраться до забаррикадировавшихся там детей. За восемь минут, что он там находился, он успел
           убить 9 человек и ранить еще 23. Восемь пострадавших на данный момент находятся в тяжелом состоянии.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Один из учеников 8 «А» Ахмад Х. сказал, что их класс немного шумел и не расслышал, что говорил директор, а
           потому две девочки вышли из класса, однако преподаватель успела завести их обратно: «Наша учительница, когда
           выбежала из класса за девочками, уже видела того человека, который пошел прямо на нее. Они успели забежать в
@@ -245,16 +247,16 @@ export default function Article() {
           встать. Говорила только, чтобы мы все прятались под парту и не волновались. Она истекала кровью, а он начал
           палить по нам...».
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Одной из жертв стрелка стала 25-летняя учительница английского языка Эльвира Игнатьева, которая вела урок у
           пятиклассников — услышав стрельбу, она вышла в коридор. СМИ со ссылкой на очевидцев писали, что учительница
           пыталась закрыть от стрелка детей и получила смертельное ранение. Также, несколько детей выпрыгнули из окон
           третьего этажа.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Преступник произвед 17 выстрелов и взорвал самодельную бомбу возле кабинета английского языка.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           «Все произошло где-то в середине второго урока. Сначала мы услышали, как директор крикнула в микрофон (по
           радио), чтобы всех детей заперли (у нас учителя не было в классе), а потом произошел взрыв. Мы на панике
           собрались и попытались убежать, но беременная учительница из соседнего класса, увидев нас, завела к себе, и
@@ -262,7 +264,7 @@ export default function Article() {
           вывел ОМОН. По пути на лестнице мы видели кровь разбитые окна. И пока мы находились в классе, в окно мы
           видели, как выносят раненых» — рассказывает ученица школы.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Первые сотрудники полиции появились у школы примерно через пять-семь минут после начала стрельбы. Галявиева
           задержали, он сдался силовикам. Детей из школы эвакуировал ОМОН. Изначальная версия предполагала, что есть два
           нападавших, однако в пресс-службе президента Татарстана заявили, что он был один.
@@ -274,12 +276,12 @@ export default function Article() {
         <h3 id="god-court" className="text-center font-black text-2xl">
           «Божественный» суд
         </h3>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Видеозапись допроса юноши, который в итоге сам сдался полиции, опубликовал канал «Еду в Татарстан». На нем
           снято, как Галявиев с голым окровавленным торсом лежит на скамье со связанными руками и находится в явно
           неадекватном состоянии.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Подсудимому связали руки, так как по данным протокола, он пытался покончить с собой в полицейской машине. Из
           протокола допроса: «Меня усадили в полицейскую машину, где я попытался совершить суицид, перекусив своими
           зубами артерию на левой руке. Я перекусил всю свою кожу в этом месте, добрался до жира и мышц, но артерию так
@@ -290,21 +292,21 @@ export default function Article() {
           <img className="mt-5 mb-5" src="/img/dopros.png"></img>
           <span className="text-center italic ">Допрос Ильназа Галявиева</span>
         </Card>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           «Я родился богом. Просто осознал я это! Месяца два назад я это осознал, - истошно кричит задержанный, матерясь
           через каждое слово. — А летом у меня начал пробуждаться монстр! Я начал всех ненавидеть конкретно! Я всегда
           всех ненавидел, но начал еще больше ненавидеть!».
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Во время суда он категорически отказывался общаться с прессой. На вопросы журналистов о том, раскаивается ли
           он в содеянном, сможет ли смотреть в глаза родственникам убитых, он молчал, опустив глаза, а после объявления
           об аресте только ухмыльнулся.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Также он сказал, что планировал совершить обстрел еще 6 мая: «Путин подарил этим тварям 4 лишних дня жизни».
           Из-за указа Путина этот день сделали выходным. В итоге он перенес шутинг на первый рабочий день.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           «Когда я поднялся на третий этаж, я забежал в первый попавшийся кабинет, где проходил какой-то урок. Я первым
           делом убил учительницу одним выстрелом в голову, отчего она упала на пол и скончалась на месте. Далее я
           потратил все свои оставшиеся патроны на учеников, которые сидели под партами, прятались от меня. Я стрелял по
@@ -312,14 +314,14 @@ export default function Article() {
           что, убивая людей, я совершил правильный поступок. Тем самым я показал всем, что я действительно бог и что
           другие должны совершать всё то, что я захочу» — заявил стрелок на допросе.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Во время допроса он также заявил, что облил дверь своей квартиры селитрой, поджег ее и после этого пошел в
           школу. Огню не хватило кислорода (все двери и окна были закрыты), а потому он просто затух. Во время обыска в
           квартире Ильназа были найдены и изъяты несколько упаковок селитры, алюминиевая пудра, весы, часовой механизм и
           гвозди. То есть практически все компоненты для создания взрывного устройства. Также были найдены некие
           видеозаписи и Коран. При этом соседи позже сказали, что слышали непонятный шум в его квартире ночью.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Вместо маски с надписью «Бог», которая была на нем в момент убийства, лицо Галявиева на суде прикрывала
           обычная медицинская маска.
         </p>
@@ -327,7 +329,7 @@ export default function Article() {
           <img src="/img/court.png"></img>
           <span className="text-center italic ">Суд над Ильназом Галявиевым</span>
         </div>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           12 мая сегодня объявил голодовку и был доставлен в Советский суд Казани для избрания меры пресечения. Стрелок
           признал свою вину в произошедшем и не против заключения под стражу. До вынесения окончательного приговора он
           будет под стражей 2 месяца. Кроме психолого-психиатрической экспертизы назначено еще около 30 исследований по
@@ -335,22 +337,22 @@ export default function Article() {
           традиции, когда преступление громкое, а само деяние очень страшное по своей фабуле, фигуранта направят в Центр
           Сербского.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Как рассказал психиатр Игорь Лазарев, исходя из допроса Ильназа Галявиева можно предположить, что его
           состояние похоже на шизофрению.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           «Он выкрикивает фразы, причем иногда речь у него разорвана — это тоже симптом психоза. В общем, это все
           говорит об остром психотическом состоянии, которое может быть при разных заболеваниях, часто такое бывает при
           шизофрении», — описал врач.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           По словам Лазарева, в речи подозреваемого можно проследить негативное отношение к матери, которое часто
           проявляется у больных шизофренией. Также, считает врач, фразы стрелявшего о том, что он осознал свою миссию и
           считает себя богом, свидетельствует о систематизации бреда, который приобрел определенную систему, структуру,
           подчеркнул психиатр.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           СК возбудил дело по ч. 2 ст. 105 УК РФ («Убийство двух и более лиц»). Его будет расследовать центральный
           аппарат ведомства. Помимо всего, в здании суда заместитель прокурора Татарстана Алексей Заика заявил, что
           уголовное дело о расстреле детей в школе Казани при наличии на то оснований, может быть переквалифицировано
@@ -359,7 +361,7 @@ export default function Article() {
         <h3 id="arrest" className="text-center font-black text-2xl">
           После ареста
         </h3>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           За эти дни в соцсетях уже появились «подражатели» стрелка. Одних задерживают за ложные сообщения о взрывах,
           другие извиняются на камеру за шутки о трагедии. В Казани телефонные террористы «заминировали» десятки учебных
           заведений. Уже заведено два уголовных дела об актах терроризма. «Шутника» же теперь грозит штраф до миллиона
@@ -370,23 +372,23 @@ export default function Article() {
           <img className="mt-5 mb-5" src="/img/TicTok2.png"></img>
           <img className="mt-5 mb-5" src="/img/TikTok3.png"></img>
         </Card>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Отец Галявиева отказался давать комментарии на эту тему. Мужчина сослался на статью 51 Конституции РФ, которая
           позволяет не свидетельствовать против себя самого, своего супруга и близких родственников.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Для пострадавших при стрельбе собрали более 62 миллионов рублей, сообщил председатель российского Красного
           Креста Павел Савчук. Организация открыла счет для сбора средств после трагедии. Правительство Татарстана также
           подготовит документы о выплатах семьям погибших и пострадавших при стрельбе в казанской школе.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           Президент Татарстана Рустам Минниханов поручил правоохранительным органам республики жестко пресекать
           интернет-ресурсы, героизирующие устроившего стрельбу в казанской гимназии Ильнара Галявиева, сообщает
           пресс-служба главы республики. По мнению главы республики, на фоне общей трагедии своими публикациями данные
           ресурсы не просто не осуждают жестокое преступление, а побуждают к совершению подобных действий. Поэтому любые
           попытки романтизации преступника должны быть под особым взором правоохранителей.
         </p>
-        <p className="text-lg mt-5 mb-5" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
+        <p className="text-lg mt-5 mb-5 text-justify" style={{ textIndent: "3rem", fontFamily: "Roboto" }}>
           12 мая в Татарстане был объявлен днем траура. 13 мая состоялись первые похороны погибших. На территории
           стихийного мемориала у стен школы, куда тысячи казанцев несли цветы и игрушки. Школьники, стоявшие у
           мемориала, признались, что ходить в школу им теперь будет страшно. На заборе гимназии появилась табличка с

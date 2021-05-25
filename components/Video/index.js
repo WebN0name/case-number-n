@@ -1,9 +1,9 @@
 const Video = () => {
   return (
-    <div >
+    <div className = "mt-16 p-8 container mx-auto">
       <iframe
-        width="1280"
-        height="720"
+        width="100%"
+        height="600"
         src="https://www.youtube.com/embed/7e22klrUs_A"
         title="YouTube video player"
         frameborder="0"

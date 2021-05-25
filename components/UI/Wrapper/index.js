@@ -1,7 +1,7 @@
 
 const Wrapper = ({children}) => {
     return(
-        <div className = "w-full pb-16 bg-gray-200">
+        <div className = "w-full bg-gray-200">
             {children}
         </div>
     )
